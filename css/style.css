@@ -1,0 +1,359 @@
+/* latin-ext */
+@font-face {
+ font-family: 'Avenir';
+ src: url("./fonts/Avenir_Book.ttf"); /* File to be stored at your site */
+ }
+
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAUi-qNiXg7eU0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_FQftx9897sxZ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v15/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjxAwXiWtFCfQ7A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v15/S6uyw4BMUTPHjx4wXiWtFCc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwaPGQ3q5d0N7w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v15/S6u9w4BMUTPHh6UVSwiPGQ3q5d0.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+a {
+  color: #1772d0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px
+}
+
+strong {
+  font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+heading {
+  font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+papertitle {
+  font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+name {
+  font-family: 'Avenir', 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+
+
+
+/* CSS Document */
+
+/* body {
+	background: rgb(215,217,214);
+	color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+	font-size:16px;
+} */
+
+/* Headings */
+
+h1 {
+  	font-size:30pt;
+}
+
+h2 {
+	font-size:18pt;
+  font-weight: 600;
+}
+
+h3 {
+  	font-size:14pt;
+    font-weight: 600;
+}
+
+
+/* Hyperlinks */
+
+img.teaser {
+	border: 1px solid #333;
+}
+
+
+a:active {
+  color: red;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* Main page container */
+
+.container {
+	width: 1000;
+	min-height: 1000px;
+	margin: 0 auto; /* top and bottom, right and left */
+	border: 0px solid #000;*/
+	text-align: left;
+	padding: 1em 1em 1em 1em; /* top, right, bottom, left */
+	color: #000;
+	background: #fff;
+}
+
+/* Title and menu */
+
+.title{
+	font-size: 18pt;
+	font-weight:bold;
+	margin: 1px;
+}
+
+.menubar {
+  white-space: nowrap;
+  margin-bottom: 0em;
+  text-align:center;
+  font-size:16px;
+}
+
+
+/* Announcements */
+
+.announce_date {
+	font-size: .875em;
+	font-style: italic;
+}
+.announce {
+	font-size: inherit;
+}
+.schedule_week {
+	font-weight: bold;
+	background-color: #DDD;
+}
+
+
+/* Schedule */
+
+table.schedule {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: #000;
+	border-collapse: collapse;
+	background-color: white;
+}
+.schedule td {
+	padding: 8px;
+}
+
+
+/* Notes */
+
+table.notes {
+	border: none;
+	border-collapse: collapse;
+}
+
+.notes td {
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+
+/* Problem sets */
+
+table.psets {
+/*	border: none;*/
+	border-collapse: collapse;
+}
+
+.psets td {
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+
+.acknowledgement
+{
+	font-size: .875em;
+}
+
+.code {
+	font-family: "Courier New", Courier, monospace
+}
+
+/* Use this if no stretching
+  .instructorphoto {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 150%;
+  width: auto;
+} */
+
+
+.instructorphoto img {
+  height: 100px;
+  width: 100px;
+  border-radius: 130px;
+  margin-bottom: 10px;
+}
+.instructor {
+  display: inline-block;
+  width: 320;
+  text-align: center;
+  margin-right: 30px;
+	margin-bottom: 10px;
+}
+
+
+.col-md-12 {
+  margin-bottom: 25px;
+}
+
+
+div.person {
+  padding: 0;
+  float: left; }
+  div.person .person-info, div.person .person-thumbnail, div.person .person-text {
+    float: left; }
+  div.person .person-thumbnail {
+    width: 7em; }
+    div.person .person-thumbnail .person-avatar {
+      overflow: hidden;
+      border-radius: 50%;
+      height: 6em;
+      width: 6em;
+      margin: 1em 2em 1em 0; }
+    div.person .person-thumbnail .person-image {
+      height: 100%;
+      width: 100%;
+      display: inline-block; }
+  div.person .person-name {
+    font-size: 1.2em;
+    font-family: 'Avenir';
+    color: #888;
+    font-weight: 300;
+    margin-bottom: 0.25em; }
+    div.person .person-name span {
+      color: #000; }
+    div.person .person-name a {
+      border-bottom: 1px dotted #000;
+      color: #000;
+      font-weight: inherit; }
+    div.person .person-name a:hover {
+      border-bottom: 1px solid #000;
+      text-decoration: none; }
+  div.person .person-text {
+    width: calc(100% - 9em); }
+    div.person .person-text p {
+      color: #888;
+      font-size: 1.1em;
+      margin: 0.1em 0; }
+      div.person .person-text p span {
+        color: #000; }
