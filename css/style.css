@@ -339,7 +339,8 @@ div.person {
     font-family: 'Avenir';
     color: #888;
     font-weight: 300;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0.25em;
+    line-height: 1.3em; }
     div.person .person-name span {
       color: #000; }
     div.person .person-name a {
