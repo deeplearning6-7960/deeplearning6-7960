@@ -316,6 +316,29 @@ img {
   margin-bottom: 25px;
 }
 
+.head-people {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.head-people .person {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+  .head-people .person {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 575px) {
+  .head-people .person {
+    flex: 1 1 100%;
+  }
+}
 
 div.person {
   padding: 0;
